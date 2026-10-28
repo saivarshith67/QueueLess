@@ -212,14 +212,6 @@ change up live, no rebuild.
 
 ---
 
-## Demo
-
-[`PRESENTATION_5MIN.md`](PRESENTATION_5MIN.md) is a timed 5-minute live-demo
-script with the click path, the DSA talking points, a cheat card, and likely
-questions with 15-second answers.
-
----
-
 ## Roadmap ideas
 
 - Notifications when you're ~2 tokens away from being called
