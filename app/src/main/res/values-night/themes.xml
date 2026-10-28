@@ -1,0 +1,5 @@
+<resources>
+    <!-- No dark theme override on purpose: Base.Theme.QueueLess from values/themes.xml
+         is reused at night and every colour it references flips through
+         values-night/colors.xml. -->
+</resources>

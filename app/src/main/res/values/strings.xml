@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">QueueLess</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_queues">Queues</string>
+    <string name="nav_my_queues">My Queues</string>
+    <string name="nav_history">History</string>
+
+    <!-- Home -->
+    <string name="home_title">QueueLess</string>
+    <string name="home_subtitle">Join a queue. Skip the line.</string>
+    <string name="role_student">Student</string>
+    <string name="role_admin">Admin</string>
+
+    <!-- Generic states -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="offline_error">You\'re offline. Check your connection and try again.</string>
+    <string name="error_permission_denied">You don\'t have permission to view this.</string>
+    <string name="error_index_required">This list needs a database index that hasn\'t been created yet.</string>
+    <string name="empty_open_queues">No queues are open right now.</string>
+    <string name="empty_my_queues">You haven\'t joined any queue yet.</string>
+    <string name="empty_history">No past visits yet.</string>
+    <string name="history_joined">Joined %1$s</string>
+    <string name="status_waiting">Waiting</string>
+    <string name="status_called">Called</string>
+    <string name="status_served">Served</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_no_show">No show</string>
+    <string name="empty_waiting_list">No one is waiting.</string>
+    <string name="empty_admin_queues">No queues yet. Create your first one.</string>
+    <string name="retry">Retry</string>
+
+    <!-- Queue detail -->
+    <string name="queue_detail_title">Queue</string>
+    <string name="people_waiting">%1$d waiting</string>
+    <string name="eta_minutes">%1$d min wait</string>
+    <string name="eta_new_joiner">About %1$d min for a new joiner</string>
+    <string name="avg_service_minutes">%1$d min per person</string>
+    <string name="capacity_label">Capacity: %1$s</string>
+    <string name="capacity_unlimited">No limit</string>
+    <string name="nobody_waiting">No one waiting right now.</string>
+    <string name="closed_badge">Closed</string>
+    <string name="full_badge">Full</string>
+    <string name="your_turn">Your turn</string>
+    <string name="now_serving">Now serving you</string>
+    <string name="join">Join queue</string>
+    <string name="join_status_joined">Joined</string>
+    <string name="joined">You\'re in! Check My Queues.</string>
+    <string name="queue_closed">This queue is closed.</string>
+    <string name="queue_full">This queue is full.</string>
+    <string name="already_joined">You already joined this queue — your token is #%1$d.</string>
+
+    <!-- My Queues -->
+    <string name="cancel">Cancel</string>
+    <string name="leave_queue">Leave queue</string>
+    <string name="position_label">#%1$d in line</string>
+    <string name="cancel_token_title">Leave this queue?</string>
+    <string name="cancel_token_message">Your token will be cancelled and everyone behind you moves up.</string>
+    <string name="keep_it">Keep my spot</string>
+    <string name="cancelled_toast">Token cancelled.</string>
+
+    <!-- Admin -->
+    <string name="create_queue">Create queue</string>
+    <string name="save">Save</string>
+    <string name="call_next">Call next</string>
+    <string name="mark_served">Served</string>
+    <string name="skip">Skip</string>
+    <string name="edit">Edit</string>
+    <string name="manage">Manage</string>
+    <string name="now_serving_label">Now serving</string>
+    <string name="nobody_serving">Nobody yet</string>
+    <string name="waiting_header">Waiting (%1$d)</string>
+    <string name="queue_state_open">Open</string>
+    <string name="queue_state_closed">Closed</string>
+    <string name="queue_meta">%1$s · %2$d min per person</string>
+    <string name="form_create_title">Create queue</string>
+    <string name="form_edit_title">Edit queue</string>
+    <string name="field_name">Queue name</string>
+    <string name="field_description">Description</string>
+    <string name="field_avg_minutes">Average service minutes</string>
+    <string name="field_capacity">Capacity (0 = unlimited)</string>
+    <string name="queue_open">Queue open</string>
+    <string name="err_name_required">Enter a queue name.</string>
+    <string name="err_avg_required">Enter at least 1 minute.</string>
+    <string name="err_capacity_invalid">Capacity must be 0 or more.</string>
+
+    <!-- Auth + roles (role lives in Firestore only: users/{uid}.role) -->
+    <string name="sign_in_button">Sign in with Google</string>
+    <string name="sign_in_tagline">Join a queue. Skip the line.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="signed_in_as_account">Signed in as %1$s · %2$s</string>
+    <string name="sign_in_failed">Sign in failed. Please try again.</string>
+    <string name="sign_in_not_configured">Google Sign-In isn\'t configured. Enable the Google provider and update google-services.json.</string>
+    <string name="auth_required">Please sign in to continue.</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Bold indigo seed colour the whole theme is derived from. -->
+    <color name="seed">#4F46E5</color>
+
+    <!-- Material 3 colour roles - LIGHT. Dark values live in values-night/colors.xml. -->
+    <color name="primary">#4F46E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E0E0FF</color>
+    <color name="on_primary_container">#14145E</color>
+
+    <color name="secondary">#5B5F8A</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#E2E1F2</color>
+    <color name="on_secondary_container">#181B3F</color>
+
+    <color name="tertiary">#00695C</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#9FF2E2</color>
+    <color name="on_tertiary_container">#00201B</color>
+
+    <color name="error">#B3261E</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#F9DEDC</color>
+    <color name="on_error_container">#410E0B</color>
+
+    <color name="background">#FDFBFF</color>
+    <color name="on_background">#1A1B25</color>
+    <color name="surface">#FDFBFF</color>
+    <color name="on_surface">#1A1B25</color>
+    <color name="surface_variant">#E4E1EC</color>
+    <color name="on_surface_variant">#46464F</color>
+    <color name="surface_container">#F1EFF7</color>
+    <color name="surface_container_high">#EBE8F2</color>
+    <color name="outline">#777680</color>
+    <color name="outline_variant">#C7C5D0</color>
+
+    <!-- Status chip colours: colour + label pair for every token status. -->
+    <color name="status_waiting">#4F46E5</color>
+    <color name="status_waiting_container">#E0E0FF</color>
+    <color name="status_waiting_on">#14145E</color>
+
+    <color name="status_called">#C2410C</color>
+    <color name="status_called_container">#FFDCC5</color>
+    <color name="status_called_on">#3A1000</color>
+
+    <color name="status_served">#147D3F</color>
+    <color name="status_served_container">#C9F2DC</color>
+    <color name="status_served_on">#062913</color>
+
+    <color name="status_cancelled">#55555F</color>
+    <color name="status_cancelled_container">#E3E1EC</color>
+    <color name="status_cancelled_on">#1A1B25</color>
+
+    <color name="status_no_show">#B3261E</color>
+    <color name="status_no_show_container">#F9DEDC</color>
+    <color name="status_no_show_on">#410E0B</color>
+</resources>

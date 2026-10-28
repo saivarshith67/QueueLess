@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Large corner radii used across the app. -->
+    <dimen name="corner_card">24dp</dimen>
+    <dimen name="corner_button">18dp</dimen>
+    <dimen name="corner_input">16dp</dimen>
+    <dimen name="corner_chip">14dp</dimen>
+
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+
+    <!-- Big high-contrast token number. -->
+    <dimen name="token_number_size">64sp</dimen>
+    <dimen name="token_number_size_small">40sp</dimen>
+</resources>
